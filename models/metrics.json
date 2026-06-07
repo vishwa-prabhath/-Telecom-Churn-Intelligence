@@ -1,0 +1,26 @@
+{
+  "XGBoost": {
+    "auc": 0.7524,
+    "avg_precision": 0.5133,
+    "precision_churn": 0.4988,
+    "recall_churn": 0.5322,
+    "f1_churn": 0.515,
+    "accuracy": 0.7126
+  },
+  "LightGBM": {
+    "auc": 0.7546,
+    "avg_precision": 0.5122,
+    "precision_churn": 0.5069,
+    "recall_churn": 0.5421,
+    "f1_churn": 0.5239,
+    "accuracy": 0.7175
+  },
+  "RandomForest": {
+    "auc": 0.764,
+    "avg_precision": 0.5252,
+    "precision_churn": 0.5051,
+    "recall_churn": 0.6188,
+    "f1_churn": 0.5562,
+    "accuracy": 0.7168
+  }
+}
