@@ -105,6 +105,25 @@ python dashboard/app.py
 # → Open http://127.0.0.1:8050
 ```
 
+## Deploy on Vercel
+
+This repo now includes a root `app.py` entrypoint that exposes the Dash server to Vercel.
+
+1. Push the latest changes to GitHub.
+2. In Vercel, choose **Add New Project** and import the GitHub repository.
+3. Let Vercel detect the Python app automatically from `requirements.txt` and `app.py`.
+4. Keep the default build settings, then deploy.
+
+Local preview with the Vercel CLI:
+
+```bash
+npm i -g vercel
+vercel login
+vercel dev
+```
+
+If Vercel asks for the Python entrypoint, use `app.py` at the repository root.
+
 ---
 
 ## Tech Stack
