@@ -92,7 +92,7 @@ telco_churn.csv
 
 ```bash
 # Clone and install
-git clone https://github.com/YOUR_USERNAME/telecom-churn-analysis
+git clone https://github.com/vishwa-prabhath/-Telecom-Churn-Intelligence
 cd telecom-churn-analysis
 pip install -r requirements.txt
 
